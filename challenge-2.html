@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <style>
+      html {
+        background-color: tomato;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #dad {
+        height: 400px;
+        width: 400px;
+        background-color: #f5deb3;
+        border: 5px solid black;
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .squre:first-child {
+        height: 70px;
+        width: 70px;
+        background-color: #008080;
+        border: 5px solid white;
+      }
+      .squre:nth-child(2) {
+        height: 70px;
+        width: 300px;
+        background-color: #008080;
+        border: 5px dashed white;
+      }
+      .squre:last-child {
+        height: 70px;
+        width: 70px;
+        background-color: #008080;
+        border: 5px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dad">
+      <div class="squre"></div>
+      <div class="squre"></div>
+      <div class="squre"></div>
+    </div>
+  </body>
+</html>
