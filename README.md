@@ -1,3 +1,3 @@
 # challenge 2021
 
-This is my namad challenge!
+This is my nomad challenge!
