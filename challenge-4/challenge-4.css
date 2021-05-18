@@ -1,0 +1,89 @@
+@keyframes sexy {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-180deg);
+  }
+  0% {
+    transform: rotateZ(-360deg);
+  }
+}
+@keyframes hot {
+  0% {
+    transform: scaleY(1);
+  }
+  33% {
+    transform: scaleY(2);
+  }
+  66% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+body {
+  background-color: #6bbcbe;
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  display: flex;
+  animation: sexy 2s ease-in-out infinite;
+}
+.circle__dot {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.squre {
+  display: flex;
+  margin-top: 100px;
+}
+.squre__dot:first-child {
+  background-color: white;
+  margin: 3px;
+  width: 10px;
+  height: 50px;
+  animation: hot 1s ease-in-out infinite;
+}
+.squre__dot:nth-child(2) {
+  background-color: white;
+  margin: 3px;
+  width: 10px;
+  height: 50px;
+  animation: hot 1s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+.squre__dot:nth-child(3) {
+  background-color: white;
+  margin: 3px;
+  width: 10px;
+  height: 50px;
+  animation: hot 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+.squre__dot:nth-child(4) {
+  background-color: white;
+  margin: 3px;
+  width: 10px;
+  height: 50px;
+  animation: hot 1s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+.squre__dot:last-child {
+  background-color: white;
+  margin: 3px;
+  width: 10px;
+  height: 50px;
+  animation: hot 1s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
