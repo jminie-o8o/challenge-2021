@@ -1,4 +1,9 @@
 @import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  height: 200vh;
+}
 .header {
   background-color: #ffce33;
   height: 150px;
@@ -45,6 +50,20 @@
   margin: 60px 20px 40px 20px;
 }
 .bookoftheday__span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.topadventures {
+  margin: 60px 20px 40px 20px;
+}
+.topadventures__span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.popularauthors {
+  margin: 30px 20px 40px 20px;
+}
+.popularauthors__span {
   font-size: 30px;
   font-weight: 700;
 }
@@ -116,4 +135,49 @@
   font-weight: 600;
   font-size: 15px;
   color: white;
+}
+.list {
+  display: flex;
+  margin-left: 20px;
+  overflow-x: scroll;
+}
+
+.subbook {
+  width: 120px;
+  height: 180px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.list__A,
+.list__B,
+.list__C,
+.list__D {
+  margin-right: 30px;
+}
+.last {
+  margin-left: 20px;
+  display: flex;
+}
+.itzy {
+  width: 140px;
+  height: 200px;
+}
+.last__B {
+  margin-left: 30px;
+}
+.last__B-a {
+  line-height: 1.2;
+}
+.last__B-a span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.last__B-b {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.last__B-b span {
+  font-size: 15px;
+  font-weight: 500;
 }
